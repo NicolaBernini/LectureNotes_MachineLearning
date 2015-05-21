@@ -17,7 +17,9 @@ The idea is to help students, especially those with a **coding backgroud** to be
 
 Hopefully I will soon be able test this method in a lesson 
 
+## Credits 
 
+[Dixiao Cui](http://www.dixiaocui.com/) for the material provided and the frequent inspiring discussions. 非常谢谢 !
 
 
 
