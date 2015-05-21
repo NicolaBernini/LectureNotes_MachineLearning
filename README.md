@@ -19,7 +19,7 @@ Hopefully I will soon be able test this method in a lesson
 
 ## Credits 
 
-[Dixiao Cui](http://www.dixiaocui.com/) for the material provided and the frequent inspiring discussions. 非常谢谢 !
+<a href="http://www.dixiaocui.com/" target="_blank">Dixiao Cui</a> for the material provided and the frequent inspiring discussions. 非常谢谢 !
 
 
 
