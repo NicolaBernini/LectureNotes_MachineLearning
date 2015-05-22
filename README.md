@@ -59,7 +59,7 @@ Surely the best and most desired prize is knowledge however for **real heroes** 
 
 ## Hall of Fame  
 
-<a href="http://www.dixiaocui.com/" target="_blank">Dixiao Cui</a> for the frequent and always very inspiring discussions as well as for the material provided 非常谢谢 !
+<a href="http://www.dixiaocui.com/" target="_blank"><img src="http://www.dixiaocui.com/wp-content/uploads/2015/03/4a8e595ejw8eprq71roj9j20tv0tvtgs.jpg" width="100"> <br/> Dixiao Cui</a> for the frequent and always very inspiring discussions as well as for the important contribution 非常谢谢 !
 
 
 
