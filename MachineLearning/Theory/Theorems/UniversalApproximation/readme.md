@@ -19,6 +19,10 @@ can approximate a function which is
 
 The Theorem works by constructing the target function as a weighted sum of the hidden layer's neurons transfer function with appropriate parametrization 
 
+The Training is aimed at fitting the ANN parameters properly so to approximate the target function at desired precision level 
+
+
+
 
 
 # Reference 
