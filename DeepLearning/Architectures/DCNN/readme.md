@@ -9,4 +9,16 @@ The Deep CNN Architecture is made of 2 elements
 
 <img src="http://www.lirmm.fr/~chaumont/images/CNN_ElectronicImaging2016.jpg"/>
 
-Appunto 
+
+
+
+
+
+
+# Techniques 
+
+- Max-Pooling 
+  - Downsampling Techniques aimed at achieving some translational invariance 
+  - See [Max-Pooling](pooling/readme.md) 
+
+
