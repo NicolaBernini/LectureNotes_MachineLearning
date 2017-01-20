@@ -72,3 +72,13 @@ The Pooling is a Downsampling Technique
   - See [Max-Pooling](pooling/readme.md) 
 
 
+
+## Modularity 
+
+Different Layers are combined together always respecting the **local topology connectivity** in order to build a lower dimensional and more abstract representation 
+
+<figure>
+<img src="http://colah.github.io/posts/2014-07-Conv-Nets-Modular/img/Conv-9-Conv2Conv2.png"/>
+  <figcaption>Fig4. Input Layer `X` is first processed by Convolutional Layer `A` and the result is processed by the Convolutional Layer `B` then finally the Fully Connected Layer `F` takes in Input the more abstract representation to solve a specific task</figcaption>
+</figure>
+
