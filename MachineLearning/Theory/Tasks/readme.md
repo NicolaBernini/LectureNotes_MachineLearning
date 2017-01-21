@@ -47,5 +47,18 @@ List of Generic High Level Tasks
 
 
 
+# Low Level Tasks 
 
+The "Low Level Tasks" are typically formalized in a context-aware way hence a context-based classification arises naturally 
+
+It could be possible to have a one-to-one relationship between low level and high level tasks 
+
+## Computer Vision Context 
+
+- Image Recognition 
+  - Mapped one-to-one into the "Object Recognition" HLT 
+- Bounding Box definition 
+  - Mapped one-to-one into the "Object Detection" HLT 
+- Pixel Labeling 
+  - Mapped one-to-one into the "Semantic Segmentation" HLT 
 
