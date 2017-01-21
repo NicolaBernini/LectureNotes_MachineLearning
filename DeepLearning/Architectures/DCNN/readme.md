@@ -87,4 +87,15 @@ Different Layers are combined together always respecting the **local topology co
 
 See [Example1](example1.md)
 
+# Applications 
+
+## Computer Vision 
+
+DCNNs applied to some CV Tasks have reached state-of-the-art performance, sometimes comparable with human level 
+- Image Recognition (associating meaning to a whole image)
+- Object Detection (locate objects in an image)
+- Semantic Segmentation (provide meaning at pixel level)
+- Image Captioning (building a description of an image) 
+
+
 
