@@ -1,6 +1,10 @@
 
 # Overview 
 
+The Deep CNN Architecture is a type of Deep Network that was specifically designed for Computer Vision Tasks 
+- It relies significantly on Parametric Convolutional Kernels designed to act on 2D Data (e.g. Images)
+
+
 The Deep CNN Architecture is made of 2 elements 
 - Actual CNN 
   - Typically made of alternate convolutional and pooling layers 
