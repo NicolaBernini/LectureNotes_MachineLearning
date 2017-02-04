@@ -23,7 +23,16 @@ The Kalman Filter is an Recursive Bayesian Filter
   - We will call it **Evolution Noise** 
 
 
+**How is the state represented?**
 
+- In the Kalman Framework, Variables are Noisy and the Noise is assumed to be Gaussian 
+  - As a result of this, Variables are basically PDF following a Gaussian Distribution 
+    - It means that every variable can be represented just in terms of Mean and Variance (this is all the information needed to fully represent a Gaussian PDF)
+
+- **Can the evolution break the Gaussianity?**
+  - No as long as the Evolution is **Locally Linear** : a linear combination of Gaussian PDFs is still a Gaussian PDF appunto 
+    - This fact is exploited by Standard Kalman Filter (KF) and Extended Kalman Filter (EKF) 
+  - The Non-Linearities can break the Gaussianity 
 
 
 
@@ -31,5 +40,6 @@ The Kalman Filter is an Recursive Bayesian Filter
 - As the evolution model describes a Dynamical System, typically Differential Equations are used 
 - The Evolution Noise is part of the model 
 - As a result of these observations, a class of models typically used is the Stochastic Differential Equations one 
+
 
 
