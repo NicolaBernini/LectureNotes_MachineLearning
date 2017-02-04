@@ -15,17 +15,21 @@ The Kalman Filter is an Recursive Bayesian Filter
 - E.g. Considering the motion of an object, we can take from Physics the appropriate "Law of Motions" 
 
 
-- **What could an example of Evolution Model be?**
-  - As the evolution model describes a Dynamical System, typically Differential Equations are used 
-  - The Evolution Noise is part of the model 
-  - As a result of these observations, a class of models typically used is the Stochastic Differential Equations one 
-
-
 **Is the evolution deterministic?**
 
 - Oftentimes our model is only precise at some extent: it can explain/predcit the evolution of the system only up to a certain precision
   - The reasons are typically many : e.g. a model typically focuses just on the main dynamic, taking into account only a subset of the variables 
 - We should then model the unexplained/unpredicted evolution with a **Noise Term** 
   - We will call it **Evolution Noise** 
+
+
+
+
+
+
+**What could an example of Evolution Model be?**
+- As the evolution model describes a Dynamical System, typically Differential Equations are used 
+- The Evolution Noise is part of the model 
+- As a result of these observations, a class of models typically used is the Stochastic Differential Equations one 
 
 
