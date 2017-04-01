@@ -1,4 +1,3 @@
-
 import numpy as np
 # ELEMENT Training Set Definer 
 def do_TrainingSetDefiner(): 
@@ -24,8 +23,8 @@ def do_NetworkRunner(x, params):
     return do_NeuronRunner(x, params['n1']['w'], params['n1']['b'], params['n1']['tf'])
 
 # ELEMENT Cost Computer 
-def do_cost_computer(X, y, weight):
-    nn_output = run(X,weight)
+def do_cost_computer(X, y):
+    nn_output = do_NetworkRunner(X, params)
     m = X.shape[0] #num training examples, 2
     return np.sum(np.square(nn_output - y)) / m
 
@@ -33,4 +32,5 @@ print "Test Neuron = " + str(do_NeuronRunner(1,1,1,sigmoid))
 
 ts_x, ts_y = do_TrainingSetDefiner()
 print "Test Network = " + str(do_NetworkRunner(ts_x, params))
+print "Full Batch MSE = " + str(do_cost_computer(ts_x, ts_y))
 
