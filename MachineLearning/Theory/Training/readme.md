@@ -11,8 +11,10 @@ Set of Training related Algos
 
 ## Backpropagation 
 
-The Backpropagation is a general Training Algo based on the idea to "backpropagate" the errors on the networks params 
+The Backpropagation is a general Training Algo based on the idea to "backpropagate" the final error, performed with respect to a batch of examples, on the networks params 
+
 - Computing the Error Function Derivative wrt to each Param 
+
 - Modifying each Param so to slightly reduce the error function 
 
 
