@@ -17,7 +17,17 @@ The Backpropagation is a general Training Algo based on the idea to "backpropaga
 
 - Modifying each Param so to slightly reduce the error function 
 
+# Training Algo 
+
+- Gradient Descent 
+- Stochastic Gradient Descent 
+- Minibatch 
 
 
+
+## Notes 
+
+[[ML] What is the difference between GD and SGD](https://techpills.quora.com/ML-What-is-the-difference-between-GD-and-SGD)
+- Clear Explanation of GD vs SGD difference
 
 
