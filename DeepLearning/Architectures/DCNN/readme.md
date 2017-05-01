@@ -5,13 +5,26 @@ The Deep CNN Architecture is a type of Deep Network that was specifically design
 - It relies significantly on Parametric Convolutional Kernels designed to act on 2D Data (e.g. Images)
 
 
-The Deep CNN Architecture is made of 2 elements 
+The Deep CNN Architecture is composed of 2 main stages  
 - Actual CNN 
-  - Typically made of alternate convolutional and pooling layers 
+  - Goal: Perform an effective **Representation Learning** 
+    - Learn a Low Dimensional Input Representation which could allow for solving the Global Task (e.g. Classification) 
+  - Structure 
+    - Typically made of alternate convolutional and pooling layers performing **dimensionality expansion** and **dimensionality reduction** 
 - FFNN 
-  - Typically a Multilayer Perceptron 
+  - Goal: Solve the Global Task (e.g. Classification) starting from the Internal Low Dimensional Learned Representation 
+  - Structure: typically a Multilayer Perceptron 
 
-<img src="http://www.lirmm.fr/~chaumont/images/CNN_ElectronicImaging2016.jpg"/>
+<figure>
+  <img src="http://www.lirmm.fr/~chaumont/images/CNN_ElectronicImaging2016.jpg"/>
+  <figcaption>Fig1. - Image Classification CNN Architecture Example. </figcaption>
+</figure>
+
+
+<figure>
+  <img src="https://www.researchgate.net/profile/Spyridon_Bakas/publication/285579442/figure/fig3/AS:391418167218176@1470332771177/Fig-3-Architecture-of-Convolutional-Neural-Network-for-d-24-The-input-of-the-network.ppm"/>
+  <figcaption>Fig2. - CNN Convolutional Module for Representation Learning. Convolution Operators increase the Dimensionality, Subsampling Operators (e.g. Pooling) reduce Dimensionality. </figcaption>
+</figure>
 
 
 
