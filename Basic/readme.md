@@ -1,5 +1,5 @@
 
 # Overview 
 
-[Loss Function](https://drive.google.com/open?id=1_iS54poCCzonQIHXkGLEGZyaV8sFPTgm)
+[Loss Function](https://nbviewer.jupyter.org/github/NicolaBernini/LectureNotes_MachineLearning/blob/master/Basic/loss_function1.ipynb)
 
